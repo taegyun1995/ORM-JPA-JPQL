@@ -5,6 +5,10 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
     <persistence-unit name="hello">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>jpql.Member</class>
+        <class>jpql.Team</class>
+        <class>jpql.Product</class>
+        <class>jpql.Order</class>
 
         <properties>
             <!-- 필수 속성 -->
