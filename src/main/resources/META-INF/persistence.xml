@@ -16,7 +16,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/orm-jpql"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="419914"/>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
 
             <!-- 옵션 -->
             <property name="hibernate.show_sql" value="true"/>
